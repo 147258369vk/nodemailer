@@ -8,4 +8,7 @@ route.get('/',myCtrl.openPage);
 route.post('/mail',myCtrl.sendingEmails);
 
 
+route.get('/login',myCtrl.loginpage);
+
+
 module.exports=route;
